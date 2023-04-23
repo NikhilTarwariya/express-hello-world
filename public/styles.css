@@ -1,3 +1,7 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
 .logo {
   width: 80px;
   float: left;
@@ -7,7 +11,8 @@ h1 {
   color: rgb(187, 255, 0);
   font-weight: bold;
   text-align: center;
-  text-decoration: none;
+  margin-left: 10%;
+  display: inline;
 }
 p {
   color: greenyellow;
@@ -23,6 +28,8 @@ b {
 body {
   background-repeat: no-repeat;
   background-size: cover;
+  background-image: url(/bg.jpg);
+  margin: 0%;
 }
 h2 {
   color: lightgreen;
@@ -32,4 +39,26 @@ h2 {
 }
 hr {
   color: tomato;
+}
+li {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  padding: 2.5em;
+  text-align: center;
+}
+.nav {
+    padding: 5 0%;
+}
+  
+.nav a:hover {
+  background-color: white;
+
+}
+ul {
+  margin: 0;
+}
+.navi {
+  text-decoration: none;
+  color: hotpink;
 }
