@@ -1,0 +1,47 @@
+/* TO REDUCE NAVBAR FONT SIZE */
+
+@media (max-width: 550px) {
+    .navlistitem a{
+        font-size: 11px;
+    }
+
+}
+
+
+/* TO REDUCE IMAGE SIZE AND KEEP IT IN CENTER */
+@media (max-width: 865px) {
+    .homepage img{
+        width: 200px;
+        position: static;
+    }
+    .homepage ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+/* TO ADJUST HOMEPAGETEXT */
+@media (max-width: 865px) {
+    .homepage{
+        height: 100vh;
+        align-items: center;
+    }
+    .homepagetext{
+        position: static;
+        margin-top: 50px;
+        text-align: left;
+    }
+}
+
+@media (max-width: 380px) {
+    .navlistitem a{
+        font-size: 8px;
+        flex-flow: column;
+    }
+
+    .homepagetext{
+        font-size: 15px;
+    }
+}
